@@ -1,0 +1,43 @@
+div.header {
+    display: flex;
+}
+
+div.header ul.right{
+    display: flex;
+    list-style-type: none;
+    margin-left: auto;
+    gap: 20px;
+}
+
+div.header ul.right li a{
+    text-decoration: none;
+}
+
+div.main-content-1 {
+    display: flex;
+}
+
+div.main-content-1 .col1 {
+    display: flex;
+    flex-direction: column;
+}
+
+div.main-content-2 {
+    display: flex;
+    gap: 30px
+}
+
+.described-pic {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+div.main-content-3 {
+    display: flex;
+    flex-direction: column;
+}
+
+div.main-content-4 {
+    display: flex;
+}
