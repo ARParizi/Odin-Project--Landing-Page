@@ -80,12 +80,15 @@ body {
     display: flex;
     flex-direction: column;
     flex: 0;
-    /* align-items: center; */
 }
 
 .described-pic img {
     border: 5px solid #1f2937;
     border-radius: 8%;
+}
+
+.described-pic .image-desc {
+    text-align: center;
 }
 
 
@@ -98,7 +101,6 @@ body {
 }
 
 .quote {
-    margin-left: auto;
 }
 
 .quote-author {
