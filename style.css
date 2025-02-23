@@ -1,12 +1,29 @@
+* {
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 div.header {
     display: flex;
+    align-self: flex-start;
+}
+
+div.header .left{
+    align-self: center;
 }
 
 div.header ul.right{
     display: flex;
     list-style-type: none;
     margin-left: auto;
-    gap: 20px;
+    gap: 15px;
 }
 
 div.header ul.right li a{
@@ -24,20 +41,31 @@ div.main-content-1 .col1 {
 
 div.main-content-2 {
     display: flex;
+    justify-content: center;
     gap: 30px
 }
 
 .described-pic {
     display: flex;
     flex-direction: column;
-    flex: 1;
+    flex: 0;
 }
 
 div.main-content-3 {
+    max-width: 600px;
+    flex: 0 0 300px;
+    justify-content: center;
     display: flex;
     flex-direction: column;
+}
+.quote-author {
+    margin-left: auto;
 }
 
 div.main-content-4 {
     display: flex;
+}
+
+.footer {
+    margin-top: auto;
 }
