@@ -83,6 +83,13 @@ body {
     /* align-items: center; */
 }
 
+.described-pic img {
+    border: 5px solid #1f2937;
+    border-radius: 8%;
+}
+
+
+
 .row-3 {
     flex: 0 0 300px;
     justify-content: center;
