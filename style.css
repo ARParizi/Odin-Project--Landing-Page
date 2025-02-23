@@ -10,36 +10,36 @@ body {
     align-items: center;
 }
 
-div.header {
+.header {
     display: flex;
     align-self: flex-start;
 }
 
-div.header .left{
+.header .left{
     align-self: center;
 }
 
-div.header ul.right{
+.header ul.right{
     display: flex;
     list-style-type: none;
     margin-left: auto;
     gap: 15px;
 }
 
-div.header ul.right li a{
+.header ul.right li a{
     text-decoration: none;
 }
 
-div.main-content-1 {
+.main-content-1 {
     display: flex;
 }
 
-div.main-content-1 .col1 {
+.main-content-1 .col1 {
     display: flex;
     flex-direction: column;
 }
 
-div.main-content-2 {
+.main-content-2 {
     display: flex;
     justify-content: center;
     gap: 30px
@@ -51,7 +51,7 @@ div.main-content-2 {
     flex: 0;
 }
 
-div.main-content-3 {
+.main-content-3 {
     max-width: 600px;
     flex: 0 0 300px;
     justify-content: center;
@@ -62,7 +62,7 @@ div.main-content-3 {
     margin-left: auto;
 }
 
-div.main-content-4 {
+.main-content-4 {
     display: flex;
 }
 
