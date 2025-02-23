@@ -114,3 +114,11 @@ body {
 .footer {
     margin-top: auto;
 }
+
+.Sign-up-button{
+    padding: 10px 10px 10px 10px;
+}
+
+.Sign-up-button button{
+    padding: 4px 20px 4px 20px;
+}
